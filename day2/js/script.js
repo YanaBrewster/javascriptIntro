@@ -162,11 +162,3 @@ console.log("Person 2 Spends $" + person2Total);
 console.log("Person 3 Spends $" + person3Total);
 var total = person1Total + person2Total + person3Total;
 console.log("The total cost is $"+total);
-
-
-// SHORTER SCRIPT
-//
-// var person1 = parseInt(prompt("What was the cost of your persons 1 meal?"));
-// if(person1 < 100){
-//
-// }
