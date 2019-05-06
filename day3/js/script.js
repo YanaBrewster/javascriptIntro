@@ -56,12 +56,37 @@ function showNav(){
 }
 console.log("hello");
 
-$("#showNav").click(function(){
-  if(clicked){
-                $("#circle").css('background-color', 'red');
-                clicked  = false;
-            } else {
-                $("#circle").css('background-color', 'blue');
-                clicked  = true;
-            }
+
+$(document).ready(function(){
+
+  var navOpen = false;
+
+  $("#ham").click(function(){
+    $(".navBar").toggleClass('open');
+    if(navOpen == true){
+       navOpen = false;
+    } else {
+      navOpen = true;
+    }
+    console.log(navOpen);
+  });
+
+$("#circle").click(function(){
+  if(navOpen == true){
+    $("#circle").addClass('red').removeClass('blue');
+  } else {
+    $("#circle").addClass('blue').removeClass('red');
+  }
+});
+
+  // $("#showNav").click(function(){
+  //   if(clicked){
+  //                 $("#circle").css ('background-color', 'red');
+  //                 clicked  = false;
+  //             } else {
+  //                 $("#circle").css ('background-color', 'blue');
+  //                 clicked  = true;
+  //             }
+  // });
+
 });

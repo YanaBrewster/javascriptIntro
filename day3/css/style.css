@@ -94,12 +94,15 @@
   background-color: red;
 }
 
-.footer{
-  height: 20%;
-  width: 100%;
-  color: gray;
-  bottom: 0;
+.red{
+  background-color: red;
 }
+
+.blue{
+  background-color: blue;
+}
+
+
 
 /* GRID */
 
