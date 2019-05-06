@@ -45,3 +45,23 @@
 $("").click(function(){
 
 });
+
+function showNav(){
+    var menu = document.getElementById("list");
+    if(menu.style.display === 'block'){
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+console.log("hello");
+
+$("#showNav").click(function(){
+  if(clicked){
+                $("#circle").css('background-color', 'red');
+                clicked  = false;
+            } else {
+                $("#circle").css('background-color', 'blue');
+                clicked  = true;
+            }
+});
