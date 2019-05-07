@@ -22,7 +22,14 @@ document.write("<ul>");
 
 document.write("</ul>");
 
-var days = ["Monday","Tuesday","Wednesday", "Thursday", "Friday"];
+var days = [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday"
+];
+
 var tasks = [
     ["Cleaning"],
     ["Homework", "Something else", "Shopping"],
@@ -64,3 +71,9 @@ function namePrompt(){
   console.log("hello " + name);
   document.getElementById('welcoming'). innerHTML = "<h4>Hello "+ name +"!. Welcome to the site :)</h4>"
 }
+//
+// // SHOPPING LIST
+//
+// function addToList(){
+//   console.log("adding to list");
+// }
