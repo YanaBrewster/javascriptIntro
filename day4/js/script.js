@@ -53,7 +53,6 @@ document.write("<ul>");
           for (var a = 0; a < tasks[i].length; a++) {
             document.write("<li>" + tasks[i][a] + "</li>");
           }
-
         }
       document.write("</ul>");
     document.write("</li>");
@@ -71,9 +70,3 @@ function namePrompt(){
   console.log("hello " + name);
   document.getElementById('welcoming'). innerHTML = "<h4>Hello "+ name +"!. Welcome to the site :)</h4>"
 }
-//
-// // SHOPPING LIST
-//
-// function addToList(){
-//   console.log("adding to list");
-// }

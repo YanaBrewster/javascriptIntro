@@ -42,12 +42,6 @@
 // var welcome = "Hello there";
 // console.log(welcome.length);
 
-$("").click(function(){
-
-});
-
-
-
 console.log("hello");
 
 
