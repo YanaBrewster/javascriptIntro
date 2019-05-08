@@ -42,8 +42,9 @@
 // var welcome = "Hello there";
 // console.log(welcome.length);
 
-console.log("hello");
+// console.log("hello");
 
+// HOMEWORK TASK
 
 $(document).ready(function(){
 
