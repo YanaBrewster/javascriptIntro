@@ -34,8 +34,8 @@
 //
 // itemList[2] = "This has been edited";
 // console.log(itemList);
-
-// itemList[itemList.length] = "Item 7";
+//
+// itemList[10] = "Item 7";
 // console.log(itemList);
 // console.log(itemList.length);
 // console.log(itemList [2]);
