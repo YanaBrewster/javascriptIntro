@@ -124,5 +124,5 @@ for (var i = 0; i < days.length; i++) {
       console.log(days[i].tasks[a]);
   }
   // .day is the key
-  // document.getElementById('taskList').innerHTML += '<li>' + days[i].tasks'</li>';
+  document.getElementById('taskList').innerHTML += '<li><b>' + days[i].day +'</li></b>'+'<li>' + days[i].tasks +'</li>';
 }
