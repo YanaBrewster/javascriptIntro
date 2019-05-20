@@ -15,13 +15,13 @@ document.getElementById("num").innerHTML = + biggestNumber + "is the biggest num
 
 function addNumber(numberList) {
   var newNumber = prompt("Add a number");
-for (var i = 0; i < newNumber.length; i++) {
-  if (newNumber[++i] > biggestNumber) {
-    biggestNumber = newNumber[i]
-    document.getElementById("newBiggestNumber").innerHTML = + newNumber + "is not the biggest number";
+  if(newNumber.length> 0){
+      document.getElementById("newBiggestNumber").innerHTML = + newNumber;
+      numberList.push(newNumber);
+
+    document.getElementById("newBiggestNumber").innerHTML = + biggestNumber + "is the biggest number";
   } else {
-    document.getElementById("newBiggestNumber").innerHTML = +  newNumber  + "is the biggest number";
+    document.getElementById("newBiggestNumber").innerHTML = + newNumber + "is not the biggest number";
 }
 
-}
 }
